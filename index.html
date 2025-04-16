@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Music Portfolio" data-zh="音乐作品集">音乐作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 data-en="HalbachArray Music Works" data-zh="HalbachArray音乐作品">HalbachArray音乐作品</h1>
+            <p data-en="A journey of creation and sharing" data-zh="创作与分享的音乐旅程">创作与分享的音乐旅程</p>
+            <div class="language-switcher">
+                <button id="lang-zh" class="active">中文</button>
+                <button id="lang-en">English</button>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#playlist" data-en="Featured Playlist" data-zh="精选歌单">精选歌单</a></li>
+                <li><a href="#artist" data-en="Artist Profile" data-zh="艺术家主页">艺术家主页</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="playlist" class="music-section">
+            <h2><i class="fas fa-music"></i> <span data-en="Featured Playlist" data-zh="精选歌单">精选歌单</span></h2>
+            <div class="spotify-embed">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/4DLqUzLGWzncVG56NccBZp?utm_source=generator"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="artist" class="music-section">
+            <h2><i class="fas fa-user"></i> <span data-en="Artist Profile" data-zh="艺术家主页">艺术家主页</span></h2>
+            <div class="spotify-embed">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/artist/6jOZ6gOsXtvxPQ8WiwKvGN?utm_source=generator" width="100%"
+                    height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> <span data-en="Music Portfolio" data-zh="音乐作品集">音乐作品集</span>. <span
+                    data-en="All rights reserved" data-zh="保留所有权利">保留所有权利</span>.</p>
+            <div class="social-links">
+                <a href="https://music.163.com/#/artist?id=96287408" aria-label="NetEase Cloud Music" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="icon-netease-music"></i>
+                </a>
+                <a href="https://y.qq.com/n/ryqq/singer/002A959I0toNNS" aria-label="QQ Music" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="icon-qq-music"></i>
+                    <a href="https://open.spotify.com/artist/6jOZ6gOsXtvxPQ8WiwKvGN?si=QSnlIsonQgK_xVK8HIF7Yw"
+                        aria-label="Spotify" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-spotify"></i></a>
+                    <a href="https://www.youtube.com/@Halbach_Array12087" aria-label="YouTube" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
